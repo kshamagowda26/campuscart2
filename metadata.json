@@ -1,0 +1,6 @@
+{
+  "name": "CampusCart – Student Shopping Store",
+  "description": "Smart, affordable, and useful academic supplies, tech accessories, and everyday college essentials for students with interactive cart, product details, dynamic filters, and checkout.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

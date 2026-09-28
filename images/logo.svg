@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" fill="none">
+  <defs>
+    <linearGradient id="logo-blue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563eb"/>
+      <stop offset="100%" stop-color="#1d4ed8"/>
+    </linearGradient>
+    <linearGradient id="logo-green" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+  </defs>
+  <!-- Shopping Cart Body with graduation cap integrated aesthetic -->
+  <rect x="2" y="2" width="44" height="44" rx="12" fill="#eff6ff"/>
+  <path d="M12 14H16L18.5 27H33L35.5 17H19" stroke="url(#logo-blue)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="21" cy="32" r="2.5" fill="url(#logo-green)"/>
+  <circle cx="31" cy="32" r="2.5" fill="url(#logo-green)"/>
+  <!-- Graduation cap mortarboard on top corner -->
+  <polygon points="26,8 34,12 26,16 18,12" fill="url(#logo-blue)"/>
+  <path d="M34 12V15" stroke="url(#logo-green)" stroke-width="1.5" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="sn-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#f1f5f9"/>
+    </linearGradient>
+    <filter id="pad-shadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="3" dy="12" stdDeviation="8" flood-opacity="0.16"/>
+    </filter>
+  </defs>
+  <rect width="400" height="300" fill="url(#sn-bg)"/>
+  <!-- Fan of sticky note pads -->
+  <!-- Note 1: Pastel Pink (bottom-left) -->
+  <g transform="translate(60, 90) rotate(-14)" filter="url(#pad-shadow)">
+    <rect x="0" y="0" width="105" height="105" rx="4" fill="#fda4af"/>
+    <!-- Sticky glue band top -->
+    <rect x="0" y="0" width="105" height="18" rx="2" fill="#fb7185" opacity="0.4"/>
+    <text x="52" y="55" text-anchor="middle" fill="#9f1239" font-family="system-ui, sans-serif" font-weight="700" font-size="11">TO-DO</text>
+    <line x1="20" y1="70" x2="85" y2="70" stroke="#be123c" stroke-width="1.5" stroke-dasharray="2,2"/>
+    <line x1="20" y1="84" x2="70" y2="84" stroke="#be123c" stroke-width="1.5" stroke-dasharray="2,2"/>
+  </g>
+  <!-- Note 2: Pastel Blue (bottom-right) -->
+  <g transform="translate(230, 95) rotate(12)" filter="url(#pad-shadow)">
+    <rect x="0" y="0" width="105" height="105" rx="4" fill="#7dd3fc"/>
+    <rect x="0" y="0" width="105" height="18" rx="2" fill="#38bdf8" opacity="0.4"/>
+    <text x="52" y="55" text-anchor="middle" fill="#0369a1" font-family="system-ui, sans-serif" font-weight="700" font-size="11">IDEAS</text>
+    <circle cx="30" cy="74" r="3" fill="#0284c7"/>
+    <circle cx="30" cy="88" r="3" fill="#0284c7"/>
+    <line x1="38" y1="74" x2="85" y2="74" stroke="#0284c7" stroke-width="2"/>
+    <line x1="38" y1="88" x2="75" y2="88" stroke="#0284c7" stroke-width="2"/>
+  </g>
+  <!-- Note 3: Vibrant Neon Yellow (Center main pad) -->
+  <g transform="translate(145, 50)" filter="url(#pad-shadow)">
+    <!-- Pad paper stack layers -->
+    <rect x="3" y="6" width="115" height="115" rx="4" fill="#fde047"/>
+    <rect x="2" y="4" width="115" height="115" rx="4" fill="#fef08a"/>
+    <rect x="0" y="0" width="115" height="115" rx="4" fill="#facc15"/>
+    <rect x="0" y="0" width="115" height="22" rx="2" fill="#eab308" opacity="0.35"/>
+    <!-- Curled bottom right corner effect -->
+    <path d="M100,115 L115,100 L100,100 Z" fill="#ca8a04"/>
+    <path d="M100,115 L115,100 L115,115 Z" fill="#fef9c3"/>
+    <text x="58" y="48" text-anchor="middle" fill="#854d0e" font-family="system-ui, sans-serif" font-weight="bold" font-size="13">STUDY EXAM</text>
+    <line x1="22" y1="64" x2="93" y2="64" stroke="#a16207" stroke-width="2"/>
+    <line x1="22" y1="78" x2="88" y2="78" stroke="#a16207" stroke-width="2"/>
+    <line x1="22" y1="92" x2="70" y2="92" stroke="#a16207" stroke-width="2"/>
+    <!-- Small star marker -->
+    <text x="88" y="96" fill="#ca8a04" font-size="12">★</text>
+  </g>
+  <!-- Small Index Page Flags below -->
+  <g transform="translate(100, 205)" filter="url(#pad-shadow)">
+    <!-- Flag base -->
+    <rect x="0" y="0" width="200" height="50" rx="8" fill="#ffffff" stroke="#e2e8f0"/>
+    <rect x="15" y="8" width="30" height="34" rx="3" fill="#f43f5e"/>
+    <rect x="52" y="8" width="30" height="34" rx="3" fill="#fb923c"/>
+    <rect x="89" y="8" width="30" height="34" rx="3" fill="#facc15"/>
+    <rect x="126" y="8" width="30" height="34" rx="3" fill="#4ade80"/>
+    <rect x="163" y="8" width="30" height="34" rx="3" fill="#38bdf8"/>
+    <text x="100" y="58" text-anchor="middle" fill="#64748b" font-family="system-ui, sans-serif" font-size="8">500 SHEETS TOTAL · RE-STICKABLE</text>
+  </g>
+</svg>

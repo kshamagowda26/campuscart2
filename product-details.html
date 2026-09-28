@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Product Details | CampusCart – Student Shopping Store</title>
+  <meta name="description" content="View comprehensive details, student specifications, ratings, and student pricing on CampusCart." />
+  <meta property="og:title" content="Product Details | CampusCart" />
+  <meta property="og:description" content="Detailed overview of college essentials and study gear for students." />
+  <meta property="og:type" content="website" />
+  <link rel="icon" type="image/svg+xml" href="images/logo.svg" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <!-- Header & Navigation -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="index.html" class="brand" aria-label="CampusCart Home">
+        <img src="images/logo.svg" alt="CampusCart Logo" class="brand-icon" />
+        <span>Campus<span class="accent">Cart</span></span>
+        <span class="tagline">· Student Store</span>
+      </a>
+
+      <nav aria-label="Main Navigation">
+        <ul class="nav-links">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="products.html" class="nav-link active">Shop</a></li>
+          <li><a href="about.html" class="nav-link">About Us</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="cart.html" class="cart-button" aria-label="View Shopping Cart">
+          <span>🛒</span>
+          <span style="font-weight: 700;">Cart</span>
+          <span class="cart-count tabular-nums" style="display: none;">0</span>
+        </a>
+        <button type="button" class="mobile-menu-toggle" aria-label="Toggle Navigation Menu">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Drawer -->
+    <div class="mobile-drawer">
+      <a href="index.html" class="mobile-nav-link">Home</a>
+      <a href="products.html" class="mobile-nav-link active">Shop All Products</a>
+      <a href="about.html" class="mobile-nav-link">About Us</a>
+      <a href="cart.html" class="mobile-nav-link">View Cart</a>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="container" id="product-detail-container">
+      <!-- Dynamically injected by js/script.js based on ?id= -->
+      <div style="text-align: center; padding: 60px 0;">
+        <p style="color: var(--text-muted);">Loading product details...</p>
+      </div>
+    </div>
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h3>
+            <img src="images/logo.svg" alt="CampusCart" style="width: 28px; height: 28px;" />
+            CampusCart
+          </h3>
+          <p>
+            Smart, affordable and durable college products designed specifically for students and campus dorm life.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Shop Catalog</a></li>
+            <li><a href="cart.html">View Cart</a></li>
+            <li><a href="about.html">About Us</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Categories</h4>
+          <ul class="footer-links">
+            <li><a href="products.html?category=Study+Essentials">Study Essentials</a></li>
+            <li><a href="products.html?category=Tech+Accessories">Tech Accessories</a></li>
+            <li><a href="products.html?category=College+Essentials">College Essentials</a></li>
+            <li><a href="products.html?category=Lifestyle">Lifestyle</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Student Support</h4>
+          <div class="footer-contact-info">
+            <p><strong>Campus Hub:</strong> Student Center Ground Floor, Desk 4</p>
+            <p><strong>Email:</strong> support@campuscart.store</p>
+            <p><strong>Helpline:</strong> +91 98765 43210 (9 AM - 7 PM)</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 CampusCart – Student Shopping Store. All rights reserved.</p>
+        <p>Built with HTML5, CSS3, Vanilla JavaScript & localStorage.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast Notification Container -->
+  <div id="toast-container"></div>
+
+  <!-- Scripts -->
+  <script src="js/products.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

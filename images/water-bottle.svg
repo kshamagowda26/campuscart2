@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="wb-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#f1f5f9"/>
+    </linearGradient>
+    <linearGradient id="metal-steel" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="25%" stop-color="#334155"/>
+      <stop offset="50%" stop-color="#cbd5e1"/>
+      <stop offset="70%" stop-color="#475569"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="cap-accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#059669"/>
+      <stop offset="50%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#047857"/>
+    </linearGradient>
+    <filter id="wb-shadow" x="-20%" y="-10%" width="140%" height="130%">
+      <feDropShadow dx="4" dy="16" stdDeviation="12" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+  <rect width="400" height="300" fill="url(#wb-bg)"/>
+  <ellipse cx="200" cy="265" rx="55" ry="14" fill="#cbd5e1" opacity="0.6"/>
+  <!-- Bottle Group -->
+  <g transform="translate(155, 30)" filter="url(#wb-shadow)">
+    <!-- Cap Loop Handle -->
+    <path d="M35,16 C35,4 55,4 55,16 L55,25 L35,25 Z" fill="#334155"/>
+    <path d="M40,16 C40,8 50,8 50,16" stroke="#f1f5f9" stroke-width="2" fill="none"/>
+    <!-- Lid / Cap -->
+    <rect x="25" y="25" width="40" height="22" rx="4" fill="url(#metal-steel)"/>
+    <rect x="23" y="47" width="44" height="6" rx="2" fill="url(#cap-accent)"/>
+    <!-- Neck -->
+    <path d="M28,53 L20,75 L70,75 L62,53 Z" fill="url(#metal-steel)"/>
+    <!-- Main Cylinder Body -->
+    <rect x="12" y="75" width="66" height="155" rx="10" fill="url(#metal-steel)"/>
+    <!-- Base ring -->
+    <rect x="14" y="222" width="62" height="8" rx="4" fill="#1e293b"/>
+    <!-- Typography & Thermal Badge -->
+    <text x="45" y="130" text-anchor="middle" fill="#94a3b8" font-family="system-ui, sans-serif" font-weight="700" font-size="8" letter-spacing="1">CAMPUS HYDRO</text>
+    <text x="45" y="145" text-anchor="middle" fill="#cbd5e1" font-family="system-ui, sans-serif" font-weight="600" font-size="10">750 ML</text>
+    <text x="45" y="160" text-anchor="middle" fill="#10b981" font-family="system-ui, sans-serif" font-size="8">24h COLD · 12h HOT</text>
+    <!-- Modern Mountain / Wave Icon -->
+    <path d="M36,180 L42,172 L48,180 L54,174 L60,180" stroke="#64748b" stroke-width="1.5" fill="none"/>
+  </g>
+</svg>

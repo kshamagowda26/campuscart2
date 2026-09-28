@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="ls-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#e2e8f0"/>
+    </linearGradient>
+    <linearGradient id="alum-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#94a3b8"/>
+      <stop offset="50%" stop-color="#e2e8f0"/>
+      <stop offset="100%" stop-color="#64748b"/>
+    </linearGradient>
+    <filter id="ls-shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="16" stdDeviation="12" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+  <rect width="400" height="300" fill="url(#ls-bg)"/>
+  <!-- Shadow on desk -->
+  <ellipse cx="200" cy="255" rx="140" ry="20" fill="#94a3b8" opacity="0.35"/>
+  <g transform="translate(60, 45)" filter="url(#ls-shadow)">
+    <!-- Base Plate -->
+    <path d="M40,185 L240,185 L260,205 L20,205 Z" fill="#475569"/>
+    <path d="M42,187 L238,187 L256,203 L24,203 Z" fill="url(#alum-grad)"/>
+    <!-- Anti slip rubber feet on base -->
+    <rect x="50" y="193" width="30" height="6" rx="2" fill="#334155"/>
+    <rect x="200" y="193" width="30" height="6" rx="2" fill="#334155"/>
+    <!-- Dual Supporting Hinged Arms -->
+    <polygon points="70,185 85,185 105,75 90,75" fill="#334155"/>
+    <polygon points="72,185 83,185 103,77 92,77" fill="url(#alum-grad)"/>
+    <polygon points="195,185 210,185 230,75 215,75" fill="#334155"/>
+    <polygon points="197,185 208,185 228,77 217,77" fill="url(#alum-grad)"/>
+    <!-- Adjuster rotary bolts -->
+    <circle cx="80" cy="185" r="7" fill="#1e293b"/>
+    <circle cx="205" cy="185" r="7" fill="#1e293b"/>
+    <circle cx="98" cy="76" r="7" fill="#1e293b"/>
+    <circle cx="223" cy="76" r="7" fill="#1e293b"/>
+    <!-- Inclined Laptop Rest Plate -->
+    <polygon points="40,95 240,95 270,50 70,50" fill="#475569"/>
+    <polygon points="42,93 238,93 268,52 72,52" fill="url(#alum-grad)"/>
+    <!-- Ventilation Cutout Slots -->
+    <rect x="110" y="62" width="60" height="6" rx="3" fill="#334155" transform="rotate(-6 140 65)"/>
+    <rect x="100" y="75" width="80" height="6" rx="3" fill="#334155" transform="rotate(-6 140 78)"/>
+    <!-- Front Retaining Hooks -->
+    <path d="M60,95 L60,82 Q60,78 65,78 L75,78 Q80,78 80,82 L80,95 Z" fill="#1e293b"/>
+    <path d="M200,95 L200,82 Q200,78 205,78 L215,78 Q220,78 220,82 L220,95 Z" fill="#1e293b"/>
+    <!-- Silicone protection cushions -->
+    <rect x="63" y="80" width="14" height="4" rx="2" fill="#0284c7"/>
+    <rect x="203" y="80" width="14" height="4" rx="2" fill="#0284c7"/>
+    <!-- Spec label -->
+    <text x="155" y="145" text-anchor="middle" fill="#64748b" font-family="system-ui, sans-serif" font-weight="600" font-size="10">6-LEVEL ERGONOMIC RISER</text>
+  </g>
+</svg>
